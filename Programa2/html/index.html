@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="../js/funcion.js"></script>
+    <link rel='stylesheet' type='text/css' href='../css/estilos.css'>
+    <title>PROGRAMA2</title>
+</head>
+<body>
+    <header>
+        <h1>
+			<a class="opcionMenuPrincipal" href="index.html">¡ JavaScript !</a>
+		</h1>
+    </header>
+
+    <article id="datos" class="contenedor">
+        <h3>ENCUESTA</h3>
+
+        <h4>¿Qué género de música prefieres?</h4>
+        <input class="sel" type="radio" name="musica" value="Cumbia" checked/>Cumbia
+		<input class="sel" type="radio" name="musica" value="Electro"/>Electronica
+        <input class="sel" type="radio" name="musica" value="Rock"/>Rock
+        <input class="sel" type="radio" name="musica" value="Pop"/>Pop
+        <br>
+        <h4>¿Qué genero de pelicula prefieres?</h4>
+        <input class="sel" type="radio" name="peli" value="Terror" checked/>Terror
+		<input class="sel" type="radio" name="peli" value="Acción"/>Acción
+        <input class="sel" type="radio" name="peli" value="Comedia"/>Comedia
+        <input class="sel" type="radio" name="peli" value="Ciencia Ficción"/>Ciencia Ficción
+        <br>
+        <h4>¿Qué sistema operativo prefieres en una computadora?</h4>
+        <input class="sel" type="radio" name="sistema" value="Windows" checked/>Windows
+		<input class="sel" type="radio" name="sistema" value="MacOS"/>MacOS
+        <input class="sel" type="radio" name="sistema" value="Linux"/>Linux
+        <input class="sel" type="radio" name="sistema" value="Ubuntu"/>Ubuntu
+        <br>
+        <h4>¿Cuál es tu estación preferida?</h4>
+        <input class="sel" type="radio" name="estacion" value="Primavera" checked/>Primavera
+		<input class="sel" type="radio" name="estacion" value="Verano"/>Verano
+        <input class="sel" type="radio" name="estacion" value="Otoño"/>Otoño
+        <input class="sel" type="radio" name="estacion" value="Invierno"/>Invierno
+        <br>
+        <h4>¿Qué color prefieres?</h4>
+        <input class="sel" type="radio" name="color" value="Azul" checked/>Azul
+		<input class="sel" type="radio" name="color" value="Rojo"/>Rojo
+        <input class="sel" type="radio" name="color" value="Verde"/>Verde
+        <input class="sel" type="radio" name="color" value="Amarillo"/>Amarillo
+        <br>
+
+        <br><input type="button" value="Mostrar" onclick="mostrarDatos()"/>
+    </article>
+
+    <p id="resultado" class="res"></p><br><br><br><br><br><br><br><br>
+    <footer>
+        <h1>
+            <a id="foot">ELABORADO POR JOSUE DAVID CRUZ LUNA</a>
+        </h1>
+    </footer>
+</body>
+</html>
